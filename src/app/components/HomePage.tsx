@@ -9,11 +9,17 @@ export default function HomePage() {
                 </h1>
             </div>
             <div className="flex flex-col lg:flex-row justify-center items-center w-full md:w-5/6 mx-auto mt-6 md:mt-12 space-y-4 lg:space-y-0 lg:space-x-8">
-                <p className="text-sm md:text-base lg:text-2xl leading-relaxed px-4 md:px-8 lg:px-12">
-                    Elevate your winter wardrobe with our Womens Black Bomber Genuine Sheepskin Leather Jacket. Crafted from premium sheepskin leather, this jacket ensures long-lasting durability and a luxurious look. The Blue Sherpa shearling faux fur lining provides cozy warmth, making it perfect for the cold winter months. The stylish lapel collar adds a touch of sophistication to the jackets design. The asymmetric YKK zip closure not only enhances the overall aesthetics but also adds a trendy and edgy vibe to your outfit. With its multiple pockets, this jacket offers ample space to store your essentials, ensuring convenience and practicality. Whether you are heading out for a casual outing or a night on the town, this slim fit leather jacket will keep you fashionably warm and chic.
-                    <br />
-                    Price Range: $169.99 - $199.99
-                </p>
+                {/* Container for text and button */}
+                <div className="flex flex-col items-center text-center space-y-4 px-4 md:px-8 lg:px-12">
+                    <p className="text-sm md:text-base lg:text-2xl leading-relaxed">
+                        Elevate your winter wardrobe with our Womens Black Bomber Genuine Sheepskin Leather Jacket. Crafted from premium sheepskin leather, this jacket ensures long-lasting durability and a luxurious look. The Blue Sherpa shearling faux fur lining provides cozy warmth, making it perfect for the cold winter months. The stylish lapel collar adds a touch of sophistication to the jackets design. The asymmetric YKK zip closure not only enhances the overall aesthetics but also adds a trendy and edgy vibe to your outfit. With its multiple pockets, this jacket offers ample space to store your essentials, ensuring convenience and practicality. Whether you are heading out for a casual outing or a night on the town, this slim fit leather jacket will keep you fashionably warm and chic.
+                        <br />
+                        Price Range: $169.99 - $199.99
+                    </p>
+                    <button className="bg-blue-600 px-6 md:px-12 py-3 md:py-4 text-sm md:text-lg lg:text-2xl text-white rounded-xl shadow-lg hover:bg-blue-700 transition duration-300">
+                        Order Now
+                    </button>
+                </div>
                 <Image
                     src="/images/mainproduct.jpeg"
                     alt="main image"
